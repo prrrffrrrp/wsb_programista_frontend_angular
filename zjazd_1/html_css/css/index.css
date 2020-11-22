@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+
+@font-face {
+    font-family: Lato;
+    src: url("./../assets/fonts/Lato-Regular.ttf")
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+    background-color: #70B7E3;
+}
+#example{
+    background-color: #70B7E3; 
+    color: white;
+    font-size: 20px;
+}
+
+.example {
+    background-color: aqua;
+    margin: 10px 10px 20px 10px;
+    padding: 20px;
+    height: 6%;
+    text-align: center;
+}
+
+h1 {
+    background-color: #70B7E3;
+    color: white;
+    font-size: 2.5em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    margin: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+section a {
+    background-color: #D469A5;
+    color: white;
+    padding: 5px 10px;
+    margin: 10% 10% 10% 60%;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.col {
+    background-color: #70B7E3;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.float-left {
+    float: left;
+    margin-top: 50px;
+    width: 50%;    
+}
+
+main {
+    background-color: #70B7E3;
+    height: 80vh;
+}

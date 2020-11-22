@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="firstName">Podaj imie</label><br>
+            <input name="firstName" type="text"><br>
+
+            <label for="age">Podaj wiek</label><br>
+            <input name="age" type="number" min="0" max="40"><br>
+
+            <label for="description">Podaj opis</label><br>
+            <textarea name="description" id="" cols="20" rows="5"></textarea><br>
+
+            <label for="email">Podaj login</label><br>
+            <input type="email" name="email"><br>
+
+            <label for="password">Podaj haslo</label><br>
+            <input name="password" type="password"><br>
+
+            <label for="job">Praca</label><br>
+            <input type="radio" name="job" value="ksiegowy">ksiegowy<br>
+            <input type="radio" name="job" value="pilkarz">pilkarz<br>
+            <input type="radio" name="job" value="programista">programista<br>
+        </fieldset>
+
+        <fieldset>
+            <label for="job">Hobby</label><br>
+            <input type="checkbox" name="hobby" value="lezenia">lezenia<br>
+            <input type="checkbox" name="hobby" value="czytania">czytania<br>
+            <input type="checkbox" name="hobby" value="spiewanie">spiewanie<br>
+
+            <label for="instruments">Instrumenty</label><br>
+            <select name="instruments" id="">Instrumenty
+                <option selected disabled value="">Wybierz jedna z opcji</option>
+                <option value='gitara'>Gitara</option>
+                <option value='trojkat'>Trojkat</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="button" value="wyslij">
+        <input type="submit" value="wyslij">
+        <button>wyslij</button><br>
+
+
+    </form>
+</body>
+</html>

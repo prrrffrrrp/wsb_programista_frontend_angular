@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+
+main {
+    margin: 100px;
+}
+    
+h1, h4 {
+    text-align: center;
+}
+
+span {
+    font-size: 0.8em;
+    margin: 5px 20px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 2px solid red;
+    margin: 5px;
+    background-color: rgb(213, 229, 230);
+}
+
+.send {
+    background-color: red;
+    width: 10%;
+    color: white;
+    margin-left: 90%;
+}
+
+.bottom {
+    display: inline;
+    background-color: blue;
+}
