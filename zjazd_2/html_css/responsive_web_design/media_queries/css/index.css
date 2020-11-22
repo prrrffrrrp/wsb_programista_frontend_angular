@@ -1,0 +1,44 @@
+.container {
+    background-color: sandybrown;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 760px){
+    .container{
+        background-color: lightgreen;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1060px){
+    .container{
+        background-color: lightblue;
+        font-size: 0.9em;
+    }
+
+    .container_span {
+        color: maroon;
+    }
+}
+
+
+@media only screen and (max-width: 1061){
+    .container_span {
+        display: none;
+    }
+}
+
+@media (orientation: portrait){
+    .portrait {
+        color: orange; 
+        size: 30px;
+    }
+    .landscape {
+        visibility: hidden;
+    }
+}
+
+@media (orientation: landscape){
+    .landscape{color: purple; size: 30px;}
+    .portrait{visibility: hidden;}
+}

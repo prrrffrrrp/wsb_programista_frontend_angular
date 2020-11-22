@@ -1,0 +1,39 @@
+.size1 {
+    font-size: 59px;
+    background-color: mediumseagreen;
+    width: 400px;
+    height: 100px;
+}
+
+.size2 {
+    font-size: 50%;
+    background-color: green;
+}
+
+.size3 {
+    font-size: 0.8em;
+    color: blue;
+}
+
+/*
+ * rem depends on root
+ */
+.size4 {
+    font-size: 2rem;
+    background-color: orange;
+}
+
+.size5 {
+
+}
+
+.size6 {
+    background-color: gray;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.size7 {
+    font-size: 20vh;
+}

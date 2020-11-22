@@ -1,0 +1,139 @@
+
+.box{
+    background-color: navajowhite;
+    padding: 20px;
+}
+
+.wrapper {
+    display: grid;
+    /* grid-template-columns: 32.4% 32.4% 32.4%; */
+    /* grid-template-columns: 1fr 3fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    grid-gap: 20px;
+}
+
+@media only screen and (orientation: portrait){
+    .wrapper {
+        grid-template-columns: auto auto;
+    }
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    grid-gap: 10px;
+}
+
+.box2{
+    background-color: maroon;
+    padding: 20px;
+}
+
+.jeden {
+    grid-column: 1/ span 2;
+    grid-row: 1;
+}
+
+.dwa {
+    grid-column: 3 /span 2;;
+    grid-row: 1;
+}
+
+.trzy {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+}
+
+.cztery {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+}
+
+.piec {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    grid-gap: 10px;
+}
+
+.box3 {
+    background-color: lightblue;
+}
+
+.jeden_3{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.dwa_3{
+    grid-column: 3 / span 1;
+    grid-row: 1 /span 2;
+}
+
+.trzy_3{
+    grid-column: 1 / span 1;
+    grid-row: 2;
+}
+
+.cztery_3{
+    grid-column: 2/ span 1;
+    grid-row: 2;
+}
+
+.wrapper4 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr [col3-end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
+
+.box4 {
+    background-color: pink;
+}
+
+.jeden_4{
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start;
+}
+.dwa_4{
+    grid-column: col3-start;
+    grid-row: row1-start / row2-end ;
+}
+.trzy_4{
+    grid-column: col1-start;
+    grid-row: row2-start;
+}
+.cztery_4{
+    grid-column: col2-start;
+    grid-row: row2-start;
+}
+
+.wrapper5 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header header header"
+    "slider slider slider"
+    "sidebar content content"
+    "footer footer footer"
+}
+
+.box5 {
+    background-color: yellow;
+    padding: 20px;
+}
+
+
+.header{ grid-area: header}
+.slider{ grid-area: slider}
+.sidebar{ grid-area: sidebar}
+.content{ grid-area: content}
+.footer{ grid-area: footer}
