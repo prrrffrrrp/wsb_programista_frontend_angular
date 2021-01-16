@@ -1,0 +1,52 @@
+$spamColor: lightpink;
+$fontsizeNormal: 20px;
+$fontsizeSmall: 0.5 * $fontsizeNormal;
+$fontsizeBig: 1.5 * $fontsizeNormal;
+$border: 3px solid $spamColor;
+
+@mixin flex_center ($justifyContent: center, $alignItems: center) {
+        display: flex; 
+        justify-content: $justifyContent; 
+        align-items: $alignItems;
+}
+
+body {
+    background-color: lightblue;
+    font-size: $fontsizeNormal;
+
+    .container {
+        @include flex_center(space-around, center);
+    }
+
+    #demo {
+        $demoColor: purple; // only usable inside the #demo block
+        color: $demoColor;
+    }
+
+    #yourName {
+        color: $spamColor;
+    }
+    
+    p {
+        font-size: $fontsizeSmall;
+    }
+
+    .wrapper {
+        @include flex_center();
+        h1 {color: blue}
+        h2 {color: yellow}
+        a {color: green; 
+           &:hover { color: $spamColor }
+       }
+    }
+
+    .idealClass {
+        margin: 10px;
+        &__block {
+            color: darkblue;
+            border: $border;
+        }
+    }
+}
+
+
