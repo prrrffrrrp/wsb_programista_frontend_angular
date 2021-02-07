@@ -1,3 +1,5 @@
+const functions = require("./functions")
+
 const express = require("express");
 const path = require("path")
 const port = 3000;
@@ -7,8 +9,16 @@ app.set("view engine", "hbs")
 app.use("/assets", express.static(path.join(__dirname, "./assets")));
 app.use("/js", express.static(path.join(__dirname, "./js")));
 
+const proba1 = "testing 1";
+const proba2 = () => "testing 2";
+
 app.get("/", function (req, res) {
-    res.render("index");
+    res.render("index", {
+        title: "Zajęcia 07.02.2021",
+        subTitle: functions.subTitle,
+        proba1: proba1,
+        proba2: proba2()
+    });
 })
 
 app.get("/about", function (req, res) {
