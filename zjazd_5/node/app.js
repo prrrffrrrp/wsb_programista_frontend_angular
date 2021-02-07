@@ -22,7 +22,10 @@ app.get("/", function (req, res) {
 })
 
 app.get("/about", function (req, res) {
-    res.send("This is the about page");
+    res.render("about", {
+        title_about: "wsb node about",
+        subTitle_about: functions.subTitle_about
+    });
 })
 
 app.listen(port, (err) => {
