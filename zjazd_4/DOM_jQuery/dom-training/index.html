@@ -22,9 +22,10 @@
   <section id="timer">
       <h3 class="header">Timer</h3>
       <form name='timer'>
-        <input type="number" name="minutes">
-        <input type="number" name="seconds">
-        <button type="button">Start</button>
+        <input type="number" name="minutes" min="0" max="59" placeholder="0">
+        <input type="number" name="seconds" min="0" max="59" placeholder="0">
+        <button type="button" onclick="startTimer()">Start</button>
+        <h5 class="beep" style="color: red"></h5>
       </form>
 
   </section>
