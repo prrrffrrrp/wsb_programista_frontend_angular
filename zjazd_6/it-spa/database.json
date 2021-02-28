@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "login": "spam",
+      "password": "bacon",
+      "id": 1
+    },
+    {
+      "login": "admin",
+      "password": "admin",
+      "id": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Pokój unarny",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies integer. Risus in hendrerit gravida rutrum. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Ac turpis egestas integer eget aliquet. Habitant morbi tristique senectus et netus et malesuada fames ac. Orci sagittis eu volutpat odio. Scelerisque purus semper eget duis at tellus at urna condimentum. Dictum sit amet justo donec enim diam vulputate ut. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Sit amet volutpat consequat mauris nunc. Sit amet tellus cras adipiscing enim eu turpis. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique.",
+      "beds": 1,
+      "guests": 1,
+      "price": 170
+    },
+    {
+      "id": 2,
+      "name": "Pokój binarny",
+      "description": "Risus in hendrerit gravida rutrum. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce.",
+      "beds": 1,
+      "guests": 2,
+      "price": 240
+    },
+    {
+      "id": 3,
+      "name": "Pokój trójkowy",
+      "description": "Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Ac turpis egestas integer eget aliquet.",
+      "beds": 2,
+      "guests": 3,
+      "price": 290
+    },
+    {
+      "id": 4,
+      "name": "Pokój czwórkowy",
+      "description": "Habitant morbi tristique senectus et netus et malesuada fames ac. Orci sagittis eu volutpat odio. Scelerisque purus semper eget duis at tellus at urna condimentum",
+      "beds": 2,
+      "guests": 4,
+      "price": 340
+    }
+  ],
+  "treatments": [
+    {
+      "id": 1,
+      "name": "Masaż rozgrzanym monitorem",
+      "area": "back",
+      "time": 30,
+      "price": 80
+    },
+    {
+      "id": 2,
+      "name": "Biczowanie kablem od myszy",
+      "area": "back",
+      "time": 20,
+      "price": 70
+    },
+    {
+      "id": 3,
+      "name": "Peeling odłamkami płyty CD",
+      "area": "face",
+      "time": 15,
+      "price": 50
+    },
+    {
+      "id": 4,
+      "name": "Pedicure woskiem z USB",
+      "area": "legs",
+      "time": 25,
+      "price": 100
+    },
+    {
+      "id": 5,
+      "name": "Manicure analogowo-cyfrowy",
+      "area": "hands",
+      "time": 45,
+      "price": 150
+    },
+    {
+      "id": 6,
+      "name": "Kąpiel w gorącej kawie",
+      "area": "body",
+      "time": 60,
+      "price": 200
+    },
+    {
+      "id": 7,
+      "name": "Depilacja dyskiem twardym",
+      "area": "body",
+      "time": 45,
+      "price": 120
+    }
+  ]
+}
