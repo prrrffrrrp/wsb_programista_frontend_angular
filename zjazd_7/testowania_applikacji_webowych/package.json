@@ -1,0 +1,15 @@
+{
+  "name": "testowania_applikacji_webowych",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open",
+    "test:headless": "./node_modules/.bin/cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
