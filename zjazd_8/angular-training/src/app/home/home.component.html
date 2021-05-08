@@ -1,0 +1,9 @@
+<h4>Home</h4>
+
+<img src="assets/house.jpeg" alt="house" style="width: 100px">
+
+<ul>
+    <li *ngFor="let user of users | async">
+            {{user.name}} is {{user.age}} years old!
+    </li>
+</ul>

@@ -1,0 +1,69 @@
+
+    <div style="text-align:center" class="content">
+      <h1> Welcome to {{title}}!  </h1>
+      <nav>
+          <ul>
+              <li>
+                  <a routerLink="/">Home</a>
+              </li>
+              <li>
+                  <a routerLink="/counter">Counter</a>
+              </li>
+          </ul>
+      </nav>
+      <!--
+         - <wsb-home></wsb-home>
+         -->
+
+<!--
+   -       <div class="columns">
+   -           <div class="column">
+   -               <h2 class="subtitle">Pipe</h2>
+   -               <p>{{ 12.5 | currency }}</p>
+   -               <p>{{ 12.5 | currency: 'EUR' }}</p>
+   -               <p>{{ 12.5 | currency: '$': false  }}</p>
+   -               <p>{{ currentDate | date }}</p>
+   -               <p>{{ currentDate | date: 'longDate' }}</p>
+   -               <p>{{ currentDate | date: 'fullDate' }}</p>
+   -           </div>
+   -
+   -           <div class="column">
+   -               <p>{{ 'jan KOWALSKI' | wsbTitle }}</p>
+   -               <p>{{ 'fOo bar BAZ' | wsbTitle }}</p>
+   -           </div>
+   -
+   -           <div class="column">
+   -               <p>To jest <span wsb-highlight>nowy</span> tekst.</p>
+   -               <p wsb-highlight>To jest stary tekst.</p>
+   -               <p wsb-highlight="cyan">To jest stary tekst z zmienionym kolorem direktywy. Żeby to działało zmiany w nativeElement muszą być wprowadzone w ngOnInit, a nie w samym konstruktorzy. Inaczej ten tekst dalej będzie yellow</p>
+   -           </div>
+   -           <div class="column">
+   -               <p class="notification" [ngClass]="{ 'is-danger': isToggled }">Lorem ipsum...</p>
+   -               <p class="notification" [class.is-danger]="isToggled">This can be done like that also</p>
+   -
+   -               <p [ngStyle]="{ 'max-width': '20px' }">Another type of directive...</p>
+   -               <p [ngStyle]="{ 'max-width.px': 20 }">Alternatively, this style can be assigned like that</p>
+   -
+   -               <button type="button" (click)="toggleClass()">Toggle class</button>
+   -
+   -           </div>
+   -
+   -           <div class="column" [ngSwitch]="userName">
+   -               <p *ngSwitchCase="'Marek'">Witaj, Marek</p>
+   -               <p *ngSwitchCase="'Maria'">Witaj, Maria</p>
+   -               <button type="button" (click)="toggleName()">Toggle name</button>
+   -           </div>
+   -       </div>
+   -
+   -       <div class="columns">
+   -         <div class="column">
+   -             <wsb-counter (countChange)="onCountChange($event)"></wsb-counter>
+   -         </div>
+   -         <div class="column">
+   -             <wsb-counter [count]="10"></wsb-counter>
+   -         </div>
+   -       </div>
+   -->
+
+    <router-outlet></router-outlet>
+    </div>
