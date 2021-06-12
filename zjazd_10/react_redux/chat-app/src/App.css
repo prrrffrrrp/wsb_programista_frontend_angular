@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.navbar-item {
+    padding: 20px;
+    margin-top: 1.5em;
+    color: peru;
+    text-decoration: none;
+    text-size-adjust: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-item:hover:not(.active) {
+    background-color: lightslategray;
+}
+
+nav {
+    margin-left: 70%;
+}
+
+.active {
+    background-color: lightgray;
+}
+
+/* .navbar-item { */
+/*     list-style-type: none; */
+/*     margin: 0; */
+/*     padding: 0; */
+/*     background-color: #333; */
+/*     position: fixed; */
+/*     top: 0; */
+/*     width: 100%; */
+/* } */
+/*  */
+/* .navbar li { */
+/*     float: left; */
+/* } */
+/*  */
+/* .navbar li a { */
+/*     color: white; */
+/*     padding: 14px 16px; */
+/*     text-align: center; */
+/* } */
+
+.chat-body {
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid lightblue 2px;
+    width: 50%;
+}
+
+.chat-component-box {
+
+}

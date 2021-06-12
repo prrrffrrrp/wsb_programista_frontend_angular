@@ -1,6 +1,6 @@
 ## REACT
 
 ### Create project
-`npm create <PROJECT-NAME>`
+`npx create-react-app <PROJECT-NAME>`
 
 see exercices in stackblitz
